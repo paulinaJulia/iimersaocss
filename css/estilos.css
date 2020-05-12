@@ -1,0 +1,34 @@
+body {
+  background: pink;
+ /* se fosse cm imagem backgroud-size: 50px 500px;*/
+  height: 100vh;
+  font-family: Arial;  
+}
+.menu { 
+  background-color: white;
+  
+}
+.menu ul{
+  display: flex;
+  justify-content:space-around;
+}
+.menu li {
+  list-style: none;
+  
+}
+a{
+  color: teal;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.site-subtitle,
+.site-title{
+  color: black;
+  text-align:center;
+}
+.site-subtitle{
+  font-style:italic;
+}
+ 
